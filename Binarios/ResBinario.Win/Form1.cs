@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ResBinario.BL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace ResBinario.Win
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var productosBL = new ProductosBL();
+            var listaproductos = productosBL.ObtenerProductos();
+
+            foreach (var producto in listaproductos)
+            {
+                MessageBox.Show(producto.Descripcion);
+            }
         }
     }
 }
