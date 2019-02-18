@@ -1,0 +1,13 @@
+﻿@model List<ResBinario.Web.Models.ProductoModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Opciones</h2>
+
+@foreach (var producto in Model)
+{
+    <p>@producto.Id @producto.Descripcion</p>
+
+}
+
