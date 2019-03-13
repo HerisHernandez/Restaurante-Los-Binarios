@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ResBinario.BL
 {
-    public class ClientesBLcs
+    public class ClientesBL
     {
         Contexto _contexto;
         public List<Cliente> ListadeClientes { get; set; }
 
-        public ClientesBLcs()
+        public ClientesBL()
         {
             _contexto = new Contexto();
             ListadeClientes = new List<Cliente>();

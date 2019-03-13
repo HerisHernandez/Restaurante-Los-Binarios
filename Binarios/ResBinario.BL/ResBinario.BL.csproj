@@ -52,7 +52,7 @@
     <Compile Include="Categoria.cs" />
     <Compile Include="CategoriasBL.cs" />
     <Compile Include="Cliente.cs" />
-    <Compile Include="ClientesBLcs.cs" />
+    <Compile Include="ClientesBL.cs" />
     <Compile Include="Contexto.cs" />
     <Compile Include="Orden.cs" />
     <Compile Include="OrdenesBL.cs" />

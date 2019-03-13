@@ -9,11 +9,11 @@ namespace ResBinario.WebAdmin.Controllers
 {
     public class ClientesController : Controller
     {
-        ClientesBLcs _clientesBL;
+        ClientesBL _clientesBL;
 
         public ClientesController()
         {
-            _clientesBL = new ClientesBLcs();
+            _clientesBL = new ClientesBL();
         }
 
         // GET: Clientes
