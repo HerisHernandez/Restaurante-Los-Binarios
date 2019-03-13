@@ -28,6 +28,7 @@
         <td>@Model.Total</td>
     </tr>
 </table>
+
 <p>
     @Html.ActionLink("Nuevo Producto", "Crear", new { id = Model.Id })
 </p>
@@ -48,6 +49,7 @@
         </th>
         <th></th>
     </tr>
+
     @foreach (var item in Model.ListadeOrdenDetalle)
     {
         <tr>

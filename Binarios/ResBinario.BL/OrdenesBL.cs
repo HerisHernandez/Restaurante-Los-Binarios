@@ -56,8 +56,7 @@ namespace ResBinario.BL
             if (orden.Id == 0)
             {
                 _contexto.Ordenes.Add(orden);
-            }
-            else
+            }else
             {
                 var ordenExistente = _contexto.Ordenes.Find(orden.Id);
                 ordenExistente.ClienteId = orden.ClienteId;
