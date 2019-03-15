@@ -17,7 +17,7 @@ namespace ResBinario.WebAdmin.Controllers
         }
 
         // GET: Clientes
-        public ActionResult Index()
+        public ActionResult Index() // Agregando Clientes
         {
             var listadeClientes = _clientesBL.ObtenerClientes();
 
